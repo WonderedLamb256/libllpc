@@ -1,6 +1,5 @@
 // gdttools.h: Work with the Global Descriptor Table (GDT) Includes "loadgdt" (needs nasm>gas conversion) and "gdtparams".
 // Part of the LibLLPC (Low Level Programming in C) library.
-#include "hexdefs.h"
 
 void loadgdt() {
 	// Please set a GDT manually in assembly with the pointer called gdtp before you use the loadgdt() function. Name your code header CODE
