@@ -1,4 +1,5 @@
 // multiboottools.h: Tools to comply with the Multiboot Standard. Includes header() and more.
+// Part of the LibLLPC (Low Level Programming in C) library.
 void header() {
 	asm (
 	.SET ALIGN, 1<<0
