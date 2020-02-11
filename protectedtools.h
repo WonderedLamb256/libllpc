@@ -1,4 +1,5 @@
 // protectedtools.h: Close interrupts, simple protected mode setup, etc.
+// Part of the LibLLPC (Low Level Programming in C) library.
 
 void close_interrupts() {
 	asm (
